@@ -13,7 +13,7 @@
 
   networking.hostName = "devm";
   time.timeZone = "Europe/Amsterdam";
-  system.stateVersion = "23.11";
+  system.stateVersion = "24.11";
 
   odbox = {
     server.enable = true;

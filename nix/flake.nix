@@ -2,7 +2,7 @@
   description = "Flake to build and develop 'odoo.box'.";
 
   inputs = {
-    nixpkgs.url = "github:NixOs/nixpkgs/nixos-23.11";
+    nixpkgs.url = "github:NixOs/nixpkgs/nixos-24.11";
     nixie = {
       url = "github:c0c0n3/nixie";
       inputs.nixpkgs.follows = "nixpkgs";
