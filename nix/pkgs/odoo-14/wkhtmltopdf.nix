@@ -3,7 +3,7 @@
     wkhtmltopdf
 }:
 let
-  version-tag = "0.12.5";
+  version-tag = "0.12.6";
 in wkhtmltopdf.overrideAttrs (
   finalAttrs: previousAttrs: {
     version = version-tag;
@@ -11,7 +11,7 @@ in wkhtmltopdf.overrideAttrs (
       owner = "wkhtmltopdf";
       repo = "wkhtmltopdf";
       rev = version-tag;
-      sha256 = "0i6b6z3f4szspbbi23qr3hv22j9bhmcj7c1jizr7y0ra43mrgws1";
+      sha256 = "adcced78492e7366d940c66a1327a85d3ae8c45190f486f545fdaa84cac662f0";
     };
   }
 )

@@ -25,7 +25,7 @@ color: #ffffff !important;
   border-radius: 0;
   border: solid 1px $primary_accent !important;
   color: $primary_accent !important;
-}
+}o_list_table
 .o_list_view .o_list_table thead {
     position: sticky;
     top: 0;
@@ -279,14 +279,14 @@ border: none;
 border-bottom: solid;
 font-weight: bold;
 }
-.nav-link{
-    @include hover-focus {
-      border: none;
-    }
-}
-//.o_data_row:has(.custom-control-input:checked){
-//background: blue !important;
+//.nav-link{
+//    @include hover-focus {
+//      border: none;
+//    }
 //}
+.o_data_row:has(.custom-control-input:checked){
+background: blue !important;
+}
 .o_field_one2many{
     .o_list_view{
         .table-responsive{
@@ -334,10 +334,33 @@ z-index: 1;
 .o_optional_columns_dropdown_toggle{
 z-index: 999;
 }
+.o_home_menu_background:not(.o_home_menu_background_custom) .o_main_navbar{
+    max-height:100px;
+}
+
 
 .o_progressbar .o_progress .o_progressbar_complete {
 background-color: #3d9bbb;
 }
 .o_cp_left .btn {
     margin-right: 10px !important;
+}
+
+.o_main_navbar .o_menu_sections {
+    flex-wrap: wrap !important;
+}
+
+.o_section_and_note_list_view{
+    width:98%;
+}
+
+.o_list_renderer{
+    margin-left: 21px;
+}
+.o_notebook .nav{
+    background: none;
+}
+.o-form-buttonbox{
+    margin-left:-15px;
+    margin-right:-15px;
 }
