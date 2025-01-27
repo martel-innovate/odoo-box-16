@@ -6,15 +6,15 @@
 }:
 let
   vendor = fetchFromGitHub {                                   # (1)
-    owner = "c0c0n3";
-    repo = "odoo.box";
-    rev = "vendor-addons-08-mar-2024";
-    sha256 = "sha256-CdB3uEDXN25nI71ur+8DFVt9L36Cg7Kn76/2EXLVy4g=";
+    owner = "marcothedood";
+    repo = "odoo.box-dood";
+    rev = "vendor-addons-27-jan-2025.tar.gz";
+    sha256 = "sha256-1309f8e017eeca1f873fc73bbeebe87952bbf84c82fb46bfbeb5cc832132d93e";
   };
   hr-timesheet-overtime = fetchFromGitHub {
     owner = "martel-innovate";
     repo = "hr_timesheet_overtime";
-    rev = "b8f82871acf13f93ebe1a3d5b294832dba71de50";          # (2)
+    rev = "17b3dfd6d38caab572e9f1cad5a8247481b13e53";          # (2)
     sha256 = "sha256-EI4KIiHTywUqW3HYp+nn43qaqpBxQK91WFkHGgym16A=";
   };
   timesheets-by-employee = fetchFromGitHub {
